@@ -1,4 +1,6 @@
-# Precondition: SOLIDWORKS opened with a part file
+# Precondition: SOLIDWORKS opened with a part file,
+# which includes a sketch named "mysketch".
+# Post condition: The sketch selected.
 
 import win32com.client
 import pythoncom
