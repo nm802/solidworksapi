@@ -1,4 +1,5 @@
 # Precondition: SOLIDWORKS opened. One seed refplane & one or more points selected.
+# Postcondition: Insert Reference planes at selected points.
 
 import sys
 import win32com.client
