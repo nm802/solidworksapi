@@ -35,8 +35,6 @@ namespace OneStepPlanesCs
             }
 
             // Terminate program if necessary plane and points are not selected.
-            Console.WriteLine(ref_plane_is_selected);
-            Console.WriteLine(seed_sketch_points.Count);
             if (!ref_plane_is_selected || seed_sketch_points.Count == 0)
             {
                 Console.WriteLine("One plane and one or more points selection required for this function. Program aborted.");
